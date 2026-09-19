@@ -9,7 +9,7 @@ agent any
 			       }
 		stage('Test') {
 				steps {
-					echo 'Running payment service test'
+					bat 'exit /b 1'
 				      }
 			      }
 		}
